@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">PMDM_P1_JorgeMorenoRivero</string>
+    <string name="app_name">Al Fallo</string>
+    <string name="lema">Menos series, más intensidad</string>
+    <string name="desc_logo">Logo de Al Fallo</string>
+
+    <!-- Pantalla de inicio -->
+    <string name="entreno_hoy">Hoy toca: %1$s</string>
+    <string name="titulo_ejercicios">Ejercicios del día</string>
+    <string name="boton_empezar">Empezar entreno</string>
+
+    <!-- Pantalla de registro -->
+    <string name="titulo_registro">Registrar serie</string>
+    <string name="etiqueta_ejercicio">Ejercicio</string>
+    <string name="hint_peso">Peso (kg)</string>
+    <string name="hint_repeticiones">Repeticiones</string>
+    <string name="check_fallo">Llegué al fallo</string>
+    <string name="boton_guardar">Guardar serie</string>
+
+    <!-- Lista de ejercicios del día -->
+    <string-array name="ejercicios_tren_superior">
+        <item>Press banca</item>
+        <item>Remo con barra</item>
+        <item>Press militar</item>
+        <item>Dominadas</item>
+        <item>Curl de bíceps</item>
+    </string-array>
 </resources>
