@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Al Fallo</string>
+    <string name="lema">Fewer sets, more intensity</string>
+    <string name="desc_logo">Al Fallo logo</string>
+
+    <!-- Home screen -->
+    <string name="entreno_hoy">Today: %1$s</string>
+    <string name="titulo_ejercicios">Exercises for today</string>
+    <string name="boton_empezar">Start workout</string>
+
+    <!-- Log screen -->
+    <string name="titulo_registro">Log set</string>
+    <string name="etiqueta_ejercicio">Exercise</string>
+    <string name="hint_peso">Weight (kg)</string>
+    <string name="hint_repeticiones">Reps</string>
+    <string name="check_fallo">I reached failure</string>
+    <string name="boton_guardar">Save set</string>
+
+    <!-- Exercise list -->
+    <string-array name="ejercicios_tren_superior">
+        <item>Bench press</item>
+        <item>Barbell row</item>
+        <item>Overhead press</item>
+        <item>Pull-ups</item>
+        <item>Biceps curl</item>
+    </string-array>
+</resources>
