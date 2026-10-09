@@ -1,0 +1,23 @@
+<resources>
+    <!-- Estilo para los títulos de pantalla -->
+    <style name="EstiloTitulo">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_texto_principal</item>
+    </style>
+
+    <!-- Estilo para textos de apoyo -->
+    <style name="EstiloTextoSecundario">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_texto_secundario</item>
+    </style>
+
+    <!-- Estilo para los botones principales -->
+    <style name="EstiloBoton" parent="Widget.Material3.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_texto_sobre_primario</item>
+        <item name="backgroundTint">@color/color_primario</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+</resources>
