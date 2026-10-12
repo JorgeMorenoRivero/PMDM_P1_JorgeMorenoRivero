@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fondo"
+    tools:context=".RegistroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margen_pantalla">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_registro"
+            style="@style/EstiloTitulo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margen_pantalla"
+            android:text="@string/etiqueta_ejercicio"
+            style="@style/EstiloTextoSecundario" />
+
+        <Spinner
+            android:id="@+id/spinnerEjercicio"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alto_campo"
+            android:entries="@array/ejercicios_tren_superior" />
+
+        <EditText
+            android:id="@+id/etPeso"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alto_campo"
+            android:layout_marginTop="@dimen/margen_elemento"
+            android:hint="@string/hint_peso"
+            android:inputType="numberDecimal"
+            android:textColor="@color/color_texto_principal"
+            android:textColorHint="@color/color_texto_secundario"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/etRepeticiones"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alto_campo"
+            android:layout_marginTop="@dimen/margen_elemento"
+            android:hint="@string/hint_repeticiones"
+            android:inputType="number"
+            android:textColor="@color/color_texto_principal"
+            android:textColorHint="@color/color_texto_secundario"
+            android:importantForAutofill="no" />
+
+        <CheckBox
+            android:id="@+id/chkFallo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margen_elemento"
+            android:text="@string/check_fallo"
+            style="@style/EstiloTextoSecundario" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margen_pantalla"
+            android:text="@string/boton_guardar"
+            style="@style/EstiloBoton" />
+    </LinearLayout>
+</FrameLayout>

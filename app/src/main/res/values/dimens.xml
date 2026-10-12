@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen_pantalla">24dp</dimen>
+    <dimen name="margen_elemento">16dp</dimen>
+    <dimen name="tam_logo">64dp</dimen>
+    <dimen name="alto_foto">160dp</dimen>
+    <dimen name="alto_campo">56dp</dimen>
+</resources>

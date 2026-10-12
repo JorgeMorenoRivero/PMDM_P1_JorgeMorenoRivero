@@ -1,6 +1,9 @@
 package es.medac.jorgemoreno.app;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +23,11 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        TextView txtEntrenoHoy = findViewById(R.id.txtEntrenoHoy);
+        txtEntrenoHoy.setText(getString(R.string.entreno_hoy, getString(R.string.nombre_entreno)));
+
+        Button btnEmpezar = findViewById(R.id.btnEmpezar);
+        btnEmpezar.setOnClickListener(v -> startActivity(new Intent(this, RegistroActivity.class)));
     }
 }
