@@ -10,9 +10,9 @@ Está hecha en Java con vistas XML y tiene textos en español e inglés, paleta 
 
 ## Capturas
 
-| Inicio (móvil) | Registro (móvil) | Inicio (tablet) | Icono |
+| Inicio (móvil) | Registro (móvil) | Inicio (tablet) | Registro (tablet) |
 |---|---|---|---|
-| ![Inicio móvil](docs/img/movil_inicio.png) | ![Registro móvil](docs/img/movil_registro.png) | ![Inicio tablet](docs/img/tablet_inicio.png) | ![Icono](docs/img/icono_launcher.png) |
+| ![Inicio móvil](docs/img/movil_inicio.png) | ![Registro móvil](docs/img/movil_registro.png) | ![Inicio tablet](docs/img/tablet_inicio.png) | ![Registro tablet](docs/img/icono_launcher.png) |
 
 ## Cómo ejecutarla
 
